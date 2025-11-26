@@ -10,8 +10,7 @@ const ContactPage = () => {
             <div className="contact-content">
                 <button
                     className="back-button"
-                    onClick={() => navigate('/')}
-                >
+                    onClick={() => navigate('/')}>
                     ← Back to Home
                 </button>
 
@@ -21,22 +20,9 @@ const ContactPage = () => {
                     If you wish to contact me fill the form with your full name, email and a
                     short message. I will contact you as soon as possible. If you want
                     to view my Resume just click{' '}
-                    <a
-                        href={myResume}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="resume-link"
-                    >
-                        here
-                    </a>
+                    <a href={myResume} target="_blank" rel="noopener noreferrer" className="resume-link"> here </a>
                     {' '}or{' '}
-                    <a
-                        href={myResume}
-                        download="Resume_Ismael_Galarza_2025.pdf"
-                        className="resume-link"
-                    >
-                        download it
-                    </a>.
+                    <a href={myResume} download="Resume_Ismael_Galarza_2025.pdf" className="resume-link">download it</a>.
                 </p>
 
                 <form

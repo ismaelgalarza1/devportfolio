@@ -21,19 +21,13 @@ const ResumePage = () => {
         <div className="resume-container">
             <div className="resume-content">
                 <div className="resume-header">
-                    <button
-                        className="back-button"
-                        onClick={() => navigate('/')}
-                    >
-                        ← Back to Home
+                    <button className="back-button" onClick={() => navigate('/')}> ← Back to Home
                     </button>
-
-
                     href={myResume}
                     download="Resume_Ismael_Galarza_2025.pdf"
                     className="download-button"
                     <a>
-                        📥 Download PDF
+                        Download PDF
                     </a>
                 </div>
 
@@ -60,8 +54,7 @@ const ResumePage = () => {
                         <button
                             onClick={() => setPageNumber(prev => Math.max(prev - 1, 1))}
                             disabled={pageNumber <= 1}
-                            className="control-button"
-                        >
+                            className="control-button">
                             Previous
                         </button>
                         <span className="page-info">
@@ -70,8 +63,7 @@ const ResumePage = () => {
                         <button
                             onClick={() => setPageNumber(prev => Math.min(prev + 1, numPages))}
                             disabled={pageNumber >= numPages}
-                            className="control-button"
-                        >
+                            className="control-button">
                             Next
                         </button>
                     </div>
