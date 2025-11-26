@@ -1,9 +1,8 @@
-
 .landing-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 85vh;
   padding: 2rem;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   gap: 3rem;
@@ -58,10 +57,14 @@
 }
 
 @keyframes blink {
-  0%, 50% {
+
+  0%,
+  50% {
     opacity: 1;
   }
-  51%, 100% {
+
+  51%,
+  100% {
     opacity: 0;
   }
 }
@@ -79,7 +82,7 @@
   justify-content: center;
   gap: 1rem;
   flex-direction: row;
-    display: flex;
+  display: flex;
 }
 
 .projects-button,
