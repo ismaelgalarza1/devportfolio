@@ -27,7 +27,7 @@ const SplashPage = ({ onFinish }: SplashScreenProps) => {
       <div className="splash-content">
         <div className="aircraft-container">
           <img
-            src="../src/assets/Drone.png"
+            src="../assets/Drone.png"
             alt="Aircraft"
             className="landing-aircraft"
           />

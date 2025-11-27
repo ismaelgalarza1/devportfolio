@@ -28,7 +28,7 @@ const MainPage = () => {
   return (
     <div className="landing-container">
       <div className="Cartoon">
-        <img src="src/assets/ish.PNG" alt="ISH Dev" className="Ish" />
+        <img src="../assets/ish.PNG" alt="ISH Dev" className="Ish" />
       </div>
       <div className="landing-content">
         <div className="main-content-container">
