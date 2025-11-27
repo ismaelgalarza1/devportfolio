@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import '../styles/mainPage.css';
+import "../styles/mainPage.css";
 import { useNavigate } from "react-router-dom";
 
 const MainPage = () => {
@@ -18,12 +18,12 @@ const MainPage = () => {
   }, []);
 
   const handleProjectsClick = () => {
-    navigate('/projects');
-  }
+    navigate("/projects");
+  };
 
   const handleHireMeClick = () => {
-    navigate('/contact');
-  }
+    navigate("/contact");
+  };
 
   return (
     <div className="landing-container">
@@ -40,8 +40,8 @@ const MainPage = () => {
             A UAV Systems Engineer and Drone Pilot with a passion for
             technology, innovation, and Aviation. I have experience in
             designing, building, and operating UAV systems for various
-            applications. My passion is web development and creating
-            innovative solutions that make a difference.
+            applications. My passion is web development and creating innovative
+            solutions that make a difference.
           </p>
           <div className="button-container">
             <button className="projects-button" onClick={handleProjectsClick}>

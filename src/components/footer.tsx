@@ -1,21 +1,30 @@
-import { FaLinkedin, FaInstagramSquare } from "react-icons/fa";
-import '../styles/footer.css';
+import { FaLinkedin, FaInstagramSquare, FaGithub } from "react-icons/fa";
+import "../styles/footer.css";
 
 const Footer = () => {
-
-    return <>
-        <div className="footer-container">
-            <footer>
-                <div className="Social-Icons"> <FaLinkedin /> <FaInstagramSquare /></div>
-                <p>Copyright &copy; {new Date().getFullYear()} | All rights reserved</p>
-
-            </footer>
-        </div>
-
+  return (
+    <>
+      <div className="footer-container">
+        <footer>
+          <div className="Social-Icons">
+            {" "}
+            <a href="www.linkedin.com/in/ismaelgalarza1">
+              <FaLinkedin />{" "}
+            </a>
+            <a href="www.instagram.com/ismaelgalarza1">
+              <FaInstagramSquare />{" "}
+            </a>
+            <a href="www.github.com/ismaelgalarza1">
+              <FaGithub />{" "}
+            </a>
+          </div>
+          <p>
+            Copyright &copy; {new Date().getFullYear()} | All rights reserved
+          </p>
+        </footer>
+      </div>
     </>
-
-
-
-}
+  );
+};
 
 export default Footer;
