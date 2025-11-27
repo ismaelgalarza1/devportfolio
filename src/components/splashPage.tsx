@@ -26,11 +26,7 @@ const SplashPage = ({ onFinish }: SplashScreenProps) => {
     <div className={`splash-screen ${fadeOut ? "fade-out" : ""}`}>
       <div className="splash-content">
         <div className="aircraft-container">
-          <img
-            src="../assets/Drone.png"
-            alt="Aircraft"
-            className="landing-aircraft"
-          />
+          <img src="/Drone.png" alt="Aircraft" className="landing-aircraft" />
         </div>
         <div className="loading-bar-container">
           <div className="loading-bar">

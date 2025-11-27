@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/Page/AnnotationLayer.css";
 import "react-pdf/dist/Page/TextLayer.css";
-import myResume from "../assets/Resume Ismael Galarza 2025.pdf";
+import myResume from "public/Resume Ismael Galarza 2025.pdf";
 import "../styles/resume.css";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
