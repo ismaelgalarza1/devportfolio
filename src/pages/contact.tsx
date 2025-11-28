@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import myResume from "../assets/Resume Ismael Galarza 2025.pdf";
+import myResume from "../../public/Resume Ismael Galarza 2025.pdf";
 import "../styles/contact.css";
 
 const ContactPage = () => {
