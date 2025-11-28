@@ -50,7 +50,7 @@ jobs:
         with:
           name: Unit Test Report
           path: test-results/**/*.xml
-          reporter: jest-junit
+          reporter: java-junit
 
       - name: Build project
         run: npm run build
