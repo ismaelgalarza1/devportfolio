@@ -20,7 +20,7 @@ const ProjectsPage = () => {
       title: "Portfolio Website",
       description:
         "A modern, responsive portfolio website built with React and TypeScript. Features include automated CI/CD deployment, contact forms, and PDF resume viewer.",
-      image: "src/assets/Ishportfolio.png",
+      image: "/Ishportfolio.png",
       technologies: ["React", "TypeScript", "Vite", "CSS"],
       githubUrl: "https://github.com/ismaelgalarza1/devportfolio",
       liveUrl: "https://galarzadev.com",
@@ -30,7 +30,7 @@ const ProjectsPage = () => {
       title: "Flightlog Managment System Application",
       description:
         "An Application that allows users to log their flights and view their flight history.",
-      image: "src/assets/homeScreen.png",
+      image: "/homeScreen.png",
       technologies: ["React Native", "Firebase", "Expo"],
       githubUrl: "https://github.com/ismaelgalarza1/flightlogmanagementsystem",
     },
@@ -39,16 +39,16 @@ const ProjectsPage = () => {
       title: "Flight Timer",
       description:
         "A simple flight timer that calculates the time of flight based on the Launch and the land time. This also calculates by date.",
-      image: "src/assets/FlightTimer.png",
-      technologies: ["Python", "Custom Timker"],
+      image: "/FlightTimer.png",
+      technologies: ["Python", "CustomTinker"],
       githubUrl: "https://github.com/ismaelgalarza1/Flight_Timer",
     },
     {
       id: 4,
       title: "Heat Map",
       description:
-        "A diagram of surface temperature displaying onditions during the year.",
-      image: "src/assets/SurfaceTemp.png",
+        "A diagram of surface temperature displaying conditions during the year.",
+      image: "/SurfaceTemp.png",
       technologies: ["JavaScript", "API Integration", "HTML5", "CSS", "D3.js"],
       githubUrl: "https://github.com/ismaelgalarza1/vis_heatmap",
       liveUrl: "https://ismaelgalarza1.github.io/vis_heatmap/",
