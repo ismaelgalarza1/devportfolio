@@ -13,7 +13,7 @@ const MainPage = () => {
       setTypedTitle(fullTitle.slice(0, current + 1));
       current++;
       if (current === fullTitle.length) clearInterval(interval);
-    }, 100);
+    }, 300);
     return () => clearInterval(interval);
   }, []);
 
@@ -48,7 +48,7 @@ const MainPage = () => {
               Projects
             </button>
             <button className="hireme-button" onClick={handleHireMeClick}>
-              Hire Me
+              Contact Me
             </button>
           </div>
         </div>

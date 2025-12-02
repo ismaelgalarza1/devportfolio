@@ -40,14 +40,14 @@ const ProjectsPage = () => {
       description:
         "A simple flight timer that calculates the time of flight based on the Launch and the land time. This also calculates by date.",
       image: "src/assets/FlightTimer.png",
-      technologies: ["Python", "Custom Timker"],
+      technologies: ["Python", "CustomTinker"],
       githubUrl: "https://github.com/ismaelgalarza1/Flight_Timer",
     },
     {
       id: 4,
       title: "Heat Map",
       description:
-        "A diagram of surface temperature displaying onditions during the year.",
+        "A diagram of surface temperature displaying conditions during the year.",
       image: "src/assets/SurfaceTemp.png",
       technologies: ["JavaScript", "API Integration", "HTML5", "CSS", "D3.js"],
       githubUrl: "https://github.com/ismaelgalarza1/vis_heatmap",
