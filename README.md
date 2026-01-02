@@ -14,4 +14,4 @@ A simple React + typescript portfolio website that show my projects and contact 
 
 As the time goes by I plan on adding more features to this website and make it more interactive and user friendly. I also plan on adding more projects and experiences to the website.
 
-The live website [Galarza dev](galarzadev.com)
+The live website [Galarza dev](https://galarzadev.com)
